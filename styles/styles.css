@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+/* header-section */
+header{
+    height: 809px;
+    width: 1600px;
+    background: url(../images/banner/banner2.png);
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+.header-title{
+  position: absolute;
+     width: 525px;
+     height: 228px;
+     right: 100px;
+     top: 216px;
+     font-weight: 700;
+     font-size: 65px;
+     line-height: 76px;
+     text-align: right;
+}
+
+.header-discription{
+    position: absolute;
+    width: 494px;
+    height: 78px;
+    right: 100px;
+    top: 468px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: right;
+}
+/* contact button */
+.primary-btn {
+    position: absolute;
+    background: #F15B22;
+    color: #ffffff;
+    width: 160px;
+    height: 64px;
+    right: 100px;
+    top: 578px;
+    border: none;
+  }
+/* previos year failure blog */
+ .blog{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.left img {
+    position: absolute;
+    width: 569px;
+    height: 723.3px;
+    left: 206px;
+    top: 939px;
+}
+.right{
+    position: absolute;
+    width: 416px;
+    height: 400px;
+    left: 890px;
+    top: 1198px;
+   
+
+}
+
+
+
+
+
+
