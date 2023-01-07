@@ -50,6 +50,9 @@ header{
  .blog{
     display: flex;
     align-items: center;
+    max-width: 1100px;
+    max-height: 723.3px;
+    margin: 0px auto;
     gap: 50px;
 }
 .left img {
@@ -63,11 +66,135 @@ header{
     position: absolute;
     width: 416px;
     height: 400px;
-    left: 890px;
+    left: 890px; 
     top: 1198px;
-   
+}
+/* main section */
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+/* plan section styles*/
+.plan{ 
+    margin-top: 1100px;
+    background: #ffffff;
+    text-align: center;
+     
+    
+}
+.section-title{
+    margin-top: 1000px;
+
+ }
+
+
+.plan-group{
+    display: flex;
+    text-align: center;
+    gap: 100px;
 
 }
+.plan-item{
+    position: relative;
+    align-items: center;
+    right: 10px;
+
+    
+}
+/* gradient with image styles */
+.container-mindset{
+    margin-top: 100px ;
+    min-height: 300px;
+  }
+
+  .mindset-container{
+    width: 80%;
+    margin: 0px auto;
+    height: 200px;
+    border-radius: 5px ;
+    background-image: url("../images/gradient2.png"), url("../images/watch.png");
+    position: relative;
+    background-repeat: no-repeat;
+  }
+  .mindset{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    text-align: start;
+  }
+  .mindset h3{
+    font-size:25px;
+    color: #ffffff;
+    padding-bottom: 20px;
+  }
+
+  .mindset button {
+    padding: 10px 20px;
+    background: #fff;
+    border-radius: 5px;
+    color: #3b80c6;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+  }
+
+   /* footer with social icon  */
+.footer{
+    background-color: #000;
+    margin: 0px auto;
+}
+.footer-container{
+    margin: 0px auto;
+    width: 80%;
+    padding: 60px;
+    background-color: #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+}
+.left-footer-container h3{
+    font-size: 30px;
+    margin-top: 5px;
+}
+.left-footer-container p{
+    font-size:14px;
+    margin-top: 10px;
+}
+
+.social-media img{
+    width: 30px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.right-container input{
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: #000;
+
+}
+
+.right-container button{
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    color:#F15B22;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    width: 150px;
+}
+
+
+
+
+
+
 
 
 
