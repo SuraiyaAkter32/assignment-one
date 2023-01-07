@@ -81,7 +81,7 @@ main{
     text-align: center; 
 }
 .plan-group{
-    text-align: center;
+    justify-content: center;
     display: flex;
     gap: 100px;
 }
