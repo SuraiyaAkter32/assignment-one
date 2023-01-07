@@ -71,37 +71,23 @@ header{
 }
 /* main section */
 main{
-    max-width: 1140px;
+    max-width: 1100px;
     margin: 0px auto;
 }
 /* plan section styles*/
 .plan{ 
     margin-top: 1100px;
     background: #ffffff;
-    text-align: center;
-     
-    
+    text-align: center; 
 }
-.section-title{
-    margin-top: 1000px;
-
- }
-
-
 .plan-group{
-    display: flex;
     text-align: center;
+    display: flex;
     gap: 100px;
-
 }
-.plan-item{
-    position: relative;
-    align-items: center;
-    right: 10px;
 
-    
-}
 /* gradient with image styles */
+
 .container-mindset{
     margin-top: 100px ;
     min-height: 300px;
