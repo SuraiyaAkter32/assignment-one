@@ -76,7 +76,7 @@ main{
 }
 /* plan section styles*/
 .plan{ 
-    margin-top: 1100px;
+    margin-top: 1000px;
     background: #ffffff;
     text-align: center; 
 }
@@ -119,13 +119,19 @@ main{
     padding: 10px 20px;
     background: #fff;
     border-radius: 5px;
-    color: #3b80c6;
+    color:#F15B22;
+    ;
     font-weight: 600;
     font-size: 16px;
     border: none;
   }
-
-   /* footer with social icon  */
+/* Extra function added style */
+.belive-container{ 
+    margin-top: 50px;
+    background: #ffffff;
+    text-align: center;  
+}
+/* footer with social icon  */
 .footer{
     background-color: #000;
     margin: 0px auto;
